@@ -17,6 +17,11 @@
 }
 
 .sig_box_main {
+  text-align: center;
+}
+
+.sig_box_main input {
+  width: 300px;
 }
 
 .vert_divider {
