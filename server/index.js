@@ -20,6 +20,8 @@ const port = process.env.PORT || 8042
 app.use(bodyParser.json());
 app.use(cors());
 
+app.use(express.static(path.join(__dirname, './../dist_build')));
+
 //---------INITIALIZE SERVER----------//
 
 const initialize_web_server = async (
