@@ -8,6 +8,7 @@
 
 # production
 /build
+/dist_build
 
 # misc
 .env
