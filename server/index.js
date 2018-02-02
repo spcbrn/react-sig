@@ -4,6 +4,8 @@ require('dotenv').config();
 
 const express = require('express')
     , path = require('path')
+    , bodyParser = require('body-parser')
+    , cors = require('cors')
     , services = require('./services');
 
 const app = express();
@@ -12,6 +14,11 @@ const app = express();
 
 const port = process.env.PORT || 8042
     , app_url = process.env.REACT_APP_BASEURL;
+
+//---------------CONFIG---------------//
+
+app.use(bodyParser.json());
+app.use(cors());
 
 //---------INITIALIZE SERVER----------//
 

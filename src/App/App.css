@@ -2,6 +2,31 @@
   text-align: center;
 }
 
-.r-sig {
-  border: 2px solid black;
+.demo_main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F9F9F9;
+  overflow: scroll;
+}
+
+.demo_main p {
+  font-size: 13px;
+  margin-top: -18px;
+}
+
+.sig_box_main {
+}
+
+.vert_divider {
+  width: 360px;
+  height: 1px;
+  background: #DEDEDE;
+  margin: 24px 0px;
+}
+
+.r-s-canvas {
+  border: 2px solid #222222;
+  background: #FFFFFF;
 }
