@@ -153,6 +153,45 @@ export default SigBox;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------BEZIER CURVE FUNCTION-----------------------//
+
+
 // const Bezier = (startPoint, control1, control2, endPoint) => {
 //   this.startPoint = startPoint;
 //   this.control1 = control1;
