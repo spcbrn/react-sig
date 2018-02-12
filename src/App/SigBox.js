@@ -136,12 +136,12 @@ class SigBox extends Component {
         <p><small>{ `*if using default path, each POST will return the list of current entries, logged to the console`}</small></p><br />
         <p><small>{ `Request Body: { id: null, data: STRING (base64 canvas image data)}`}</small></p>
         <input ref="post_uri" placeholder="http://yourserver/post/endpoint" />
-        <button onClick={this.captureCanvas}>Send</button><br /><br /><br />
+        <button onClick={this.captureCanvas}> Send </button><br /><br /><br />
 
         <p>Enter URI to GET an image from (default '/api/signature/:id'):</p><br />
         <p><small>{`Expected Response: { id: INTEGER, data: STRING (base64 canvas image data)}`}</small></p>
         <input ref="get_uri" placeholder="http://yourserver/get/endpoint" />
-        <button onClick={this.requestSignature}>Request</button><br />
+        <button onClick={this.requestSignature}> Request </button><br />
 
       </section>
     )
