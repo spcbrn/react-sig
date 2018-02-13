@@ -8,6 +8,8 @@ import SigBox from './SigBox';
 
 class App extends Component {
 
+  testMethod = ({hi, there}) => console.log(hi, there)
+
   render() {
     return (
       <main className="demo_main">
